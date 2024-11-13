@@ -5,7 +5,6 @@ import AboutBox from "./component/AboutBox";
 import FeatureBox from "./component/FeatureBox";
 import ContactBox from "./component/ContactBox";
 import Footer from "./component/Footer";
-import Typed from "typed.js";
 import ScrollReveal from "scrollreveal";
 import { useEffect } from "react";
 
@@ -80,16 +79,7 @@ function App() {
 
     window.addEventListener("scroll", scrollActive);
     /**Type Effect */
-    const typingEffect = new Typed(".typedText", {
-      strings: ["Lecturer", "Developer", "Researcher"],
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 80,
-      backDelay: 2000,
-    });
-    return () => {
-      typingEffect.destroy();
-    };
+  
   }, []);
   return (
     <>
