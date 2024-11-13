@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nabnoeyy.github.io/Nabthong-Portfolio/",
+  "homepage": "https://github.com/nabnoeyy/final-frontend-009-Nabthongn.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
