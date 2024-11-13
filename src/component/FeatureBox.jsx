@@ -6,7 +6,7 @@ const FeaturedBox = () => {
       <div className="featured-text">
        
         <div className="featured-name">
-          WELCOME <span className="typedText"></span>
+          WELCOME 
         </div>
         <div className="featured-text-info">
           <p>

@@ -78,7 +78,7 @@ function App() {
     srLeft.reveal(".form-control", { delay: 100 });
 
     window.addEventListener("scroll", scrollActive);
-    /**Type Effect */
+  
   
   }, []);
   return (
